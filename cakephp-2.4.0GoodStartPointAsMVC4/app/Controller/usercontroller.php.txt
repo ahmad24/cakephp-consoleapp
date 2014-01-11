@@ -1,0 +1,66 @@
+<?php
+	class UsersController extends AppController {
+
+		public $name = 'Users';
+		 
+		public $components = array(
+		    'Auth' => array(
+		        'authenticate' => array(
+		            'Form' => array(
+		                'fields' => array('username' => 'email'),
+		                'passwordHasher' => array(
+		                    'hashType' => 'sha256',
+		                    'className'=> 'Simple'
+		                )
+		            )
+		        ),
+		    	'authError' => 'Did you really think you are allowed to see that?'
+
+		    )
+		);
+
+		public function beforeFilter() {
+			
+			// allow action
+			//$this->Auth->allow(array('login','register','logout'));
+			$this->Auth->allow();
+		}
+		public function index() {
+		}
+		public function login() {
+			
+			if ($this->request->is('post')) {
+				
+				$res = $this->User->find("first",array(
+				    'conditions' => array(
+				    	'User.email' => $this->data['User']['email']
+					)
+				));
+				if(!empty($res) && $res['User']['password'] == $this->Auth->password($this->data['User']['password'])){
+					$this->Auth->login($this->data);
+
+					return $this->redirect($this->Auth->redirectUrl());
+				}else{
+					$this->Session->setFlash('Username or password is incorrect');
+				}
+		        
+		    }
+			
+		}
+		public function logout() {
+		    return $this->redirect($this->Auth->logout());
+		}
+		public function register() {
+		    if ($this->data) {
+		    	
+		        if ($this->Auth->password($this->data['User']['password']) == $this->Auth->password($this->data['User']['password_confirm'])) {
+		            $this->User->create();
+		            $this->User->save($this->data);
+		            $this->Auth->login($this->data);
+		        }
+		    }
+		}
+		
+
+
+	}

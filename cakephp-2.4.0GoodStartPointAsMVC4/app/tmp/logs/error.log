@@ -1,0 +1,601 @@
+2013-11-07 21:46:21 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 21:46:32 Error: [CakeException] Password hasher class "%s" was not found.
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(122): BaseAuthenticate->passwordHasher()
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('admin@admin.com', 'dasd')
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php(30): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-07 21:48:50 Error: [CakeException] Password hasher class "%s" was not found.
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(122): BaseAuthenticate->passwordHasher()
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('admin@admin.com', 'admin')
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php(30): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-07 21:51:29 Error: [CakeException] Password hasher class "%s" was not found.
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(122): BaseAuthenticate->passwordHasher()
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('admin@admin.com', 'admidd')
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php(30): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-07 21:55:32 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 22:06:40 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php, line 35]
+2013-11-07 22:06:40 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 22:09:46 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 22:10:08 Error: [CakeException] Password hasher class "%s" was not found.
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(122): BaseAuthenticate->passwordHasher()
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('admin@admin.com', 'qweqwe')
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php(30): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-07 22:10:12 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 22:10:20 Error: [CakeException] Password hasher class "%s" was not found.
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(116): BaseAuthenticate->passwordHasher()
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('john@alaxos.com', 'qweqwe')
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php(30): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-07 22:12:34 Error: [CakeException] Password hasher class "%s" was not found.
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(122): BaseAuthenticate->passwordHasher()
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('admin@admin.com', 'wwwwwwwwww')
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php(31): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-07 22:13:00 Error: [CakeException] Password hasher class "%s" was not found.
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(122): BaseAuthenticate->passwordHasher()
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('admin@admin.com', 'eeeeeeeeee')
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php(31): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-07 22:15:32 Error: [CakeException] Password hasher class "User" was not found.
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(122): BaseAuthenticate->passwordHasher()
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(81): BaseAuthenticate->_findUser('admin@admin.com', 'eeeeeeeeee')
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(754): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\AuthComponent.php(601): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php(32): AuthComponent->login()
+#5 [internal function]: UsersController->login()
+#6 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-07 22:17:06 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 22:18:19 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 22:29:29 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 22:30:06 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 22:30:18 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 22:44:09 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php, line 36]
+2013-11-07 22:44:09 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 36, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 36, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 22:44:50 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php, line 36]
+2013-11-07 22:44:50 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 36, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 36, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-07 22:49:11 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-07 22:49:34 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-08 07:34:58 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.4.0\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp-2.4.0\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp-2.4.0/users/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-11-08 08:58:36 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakephp-2.4.0\app\View\Car1Categories\add.ctp, line 27]
+2013-11-08 08:58:36 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp-2.4.0/car1Categories/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 27, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 27, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 08:58:46 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakephp-2.4.0\app\View\Car1Categories\add.ctp, line 27]
+2013-11-08 08:58:46 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp-2.4.0/car1Categories/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 27, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 27, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 09:13:27 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakephp-2.4.0\app\View\Car1Categories\add.ctp, line 21]
+2013-11-08 09:13:27 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp-2.4.0/car1Categories/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 21, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 21, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 10:32:26 Error: [MissingActionException] Action RolesController::new() could not be found.
+Exception Attributes: array (
+  'controller' => 'RolesController',
+  'action' => 'new',
+)
+Request URL: /cakephp-2.4.0/roles/new
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(RolesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-08 10:44:23 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ')' in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\index.ctp, line 42]
+2013-11-08 10:44:23 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting ')'
+Request URL: /cakephp-2.4.0/roles
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 10:47:46 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\index.ctp, line 42]
+2013-11-08 10:47:46 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /cakephp-2.4.0/roles
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 11:45:58 Error: Fatal Error (1): Call to undefined function __call() in [C:\wamp\www\cakephp-2.4.0\lib\Cake\View\Helper\FormHelper.php, line 2357]
+2013-11-08 11:45:58 Error: [FatalErrorException] Call to undefined function __call()
+Request URL: /cakephp-2.4.0/users/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\cak...', 2357)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\cak...', 2357, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\cak...', 2357, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 12:45:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dateFormatAfterFind' at line 1
+Request URL: /cakephp-2.4.0/users
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('dateFormatAfter...', Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('dateFormatAfter...', Array, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('dateFormatAfter...', Array, Array)
+#4 C:\wamp\www\cakephp-2.4.0\lib\Cake\Model\Model.php(801): DboSource->query('dateFormatAfter...', Array, Object(User))
+#5 C:\wamp\www\cakephp-2.4.0\app\Model\AppModel.php(38): Model->__call('dateFormatAfter...', Array)
+#6 C:\wamp\www\cakephp-2.4.0\app\Model\AppModel.php(38): User->dateFormatAfterFind('2013-04-13 13:3...')
+#7 [internal function]: AppModel->afterFind(Array, true)
+#8 C:\wamp\www\cakephp-2.4.0\lib\Cake\Event\CakeEventManager.php(246): call_user_func_array(Array, Array)
+#9 C:\wamp\www\cakephp-2.4.0\lib\Cake\Model\Model.php(3192): CakeEventManager->dispatch(Object(CakeEvent))
+#10 C:\wamp\www\cakephp-2.4.0\lib\Cake\Model\Model.php(2884): Model->_filterResults(Array)
+#11 C:\wamp\www\cakephp-2.4.0\lib\Cake\Model\Model.php(2852): Model->_readDataSource('all', Array)
+#12 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Component\PaginatorComponent.php(198): Model->find('all', Array)
+#13 C:\wamp\www\cakephp-2.4.0\app\Controller\UsersController.php(25): PaginatorComponent->paginate()
+#14 [internal function]: UsersController->index()
+#15 C:\wamp\www\cakephp-2.4.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#16 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#17 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#18 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2013-11-08 13:10:10 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\index.ctp, line 3]
+2013-11-08 13:10:10 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp-2.4.0/roles
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-08 13:28:26 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-08 15:52:01 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-08 17:23:21 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-08 18:35:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.0/img/mercedes-benz-sf1-final-concept-design-6.png
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-09 06:12:28 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp-2.4.0/
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp-2.4.0\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-09 06:20:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.0/js/jquery.validate.unobtrusive.min.js
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-09 06:20:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.0/js/jquery.validate.unobtrusive.min.js
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-09 06:21:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.4.0/js/jquery.validate.unobtrusive.min.js
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-09 08:54:23 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\cakephp-2.4.0\lib\Cake\View\Helper\HtmlHelper.php, line 614]
+2013-11-09 08:54:23 Error: [FatalErrorException] Unsupported operand types
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\cak...', 614)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\cak...', 614, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\cak...', 614, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 08:54:36 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\add.ctp, line 58]
+2013-11-09 08:54:36 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 58, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 58, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 08:54:38 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\add.ctp, line 58]
+2013-11-09 08:54:38 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 58, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 58, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 09:28:50 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\wamp\www\cakephp-2.4.0\app\ViewModel\RoleModel.php, line 5]
+2013-11-09 09:28:50 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 5, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 5, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 09:30:39 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [C:\wamp\www\cakephp-2.4.0\app\ViewModel\RoleModel.php, line 3]
+2013-11-09 09:30:39 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 09:35:04 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\add.ctp, line 69]
+2013-11-09 09:35:04 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 69, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 69, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 09:35:14 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\add.ctp, line 69]
+2013-11-09 09:35:14 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 69, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 69, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 09:35:54 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\add.ctp, line 68]
+2013-11-09 09:35:54 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 68, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 68, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 09:36:14 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\add.ctp, line 70]
+2013-11-09 09:36:14 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 09:36:33 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\add.ctp, line 70]
+2013-11-09 09:36:33 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 09:37:18 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\add.ctp, line 70]
+2013-11-09 09:37:18 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-09 09:39:15 Error: Fatal Error (1): Cannot use object of type Role as array in [C:\wamp\www\cakephp-2.4.0\app\View\Roles\add.ctp, line 71]
+2013-11-09 09:39:15 Error: [FatalErrorException] Cannot use object of type Role as array
+Request URL: /cakephp-2.4.0/roles/add
+Stack Trace:
+#0 C:\wamp\www\cakephp-2.4.0\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\wamp\www\cak...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\wamp\www\cak...', 71, Array)
+#2 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\wamp\www\cak...', 71, Array)
+#3 C:\wamp\www\cakephp-2.4.0\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-11-22 17:51:18 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /clean%20copies/cakephp-2.4.0GoodStartPointAsMVC4/
+Stack Trace:
+#0 C:\wamp\www\clean copies\cakephp-2.4.0GoodStartPointAsMVC4\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\clean copies\cakephp-2.4.0GoodStartPointAsMVC4\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\clean copies\cakephp-2.4.0GoodStartPointAsMVC4\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
