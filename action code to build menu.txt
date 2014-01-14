@@ -1,0 +1,30 @@
+public function getTables(){
+            $databaseName =  $this->User->getDataSource()->config['database'];
+            // Create a new file with 0644 permissions
+            $file = new File(WWW_ROOT.'/menu.ctp', true, 0644);
+            
+           
+           
+            $data = $this->User->query("SHOW TABLES FROM $databaseName");
+            foreach($data as $table){
+                //echo $table['TABLE_NAMES']["Tables_in_$databaseName"];
+              
+            $tableText =  "<li>
+
+		<a href='javascript:;' class='".$table['TABLE_NAMES']["Tables_in_$databaseName"]."' data-toggle='".$table['TABLE_NAMES']["Tables_in_$databaseName"]."'><?php echo __('".Inflector::humanize($table['TABLE_NAMES']["Tables_in_$databaseName"])."')?></a>
+
+		<ul class='nav' data-name='".$table['TABLE_NAMES']["Tables_in_$databaseName"]."'>
+
+			<li><?php echo \$this->Html->link(__('List ".Inflector::humanize( Inflector::pluralize($table['TABLE_NAMES']["Tables_in_$databaseName"]))."'), array('controller' => '".$table['TABLE_NAMES']["Tables_in_$databaseName"]."','action' => 'index'),array('class'=>'".$table['TABLE_NAMES']["Tables_in_$databaseName"]."_index')); ?></li>
+
+			<li><?php echo \$this->Html->link(__('Add ".Inflector::humanize(Inflector::singularize($table['TABLE_NAMES']["Tables_in_$databaseName"]))."'), array('controller' => '".$table['TABLE_NAMES']["Tables_in_$databaseName"]."','action' => 'add'),array('class'=>'".$table['TABLE_NAMES']["Tables_in_$databaseName"]."_add')); ?></li>
+
+		</ul>
+
+	</li>";
+             $file->write($tableText);
+
+            }
+ 
+            exit;
+        }
